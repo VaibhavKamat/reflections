@@ -1,0 +1,28 @@
+Q1)How did viewing a diff between two versions of a file help you see the bug that was introduced?
+ans: Using fc on windows(similarly using diff in mac or linux) helped me compare the difference in two files that were passed, which of the lines were added 
+and which lines where deleted. I could compare if there was any typos in the files.
+
+Q2)How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+Having access to the previous files can help us compare the different versions as well switch to a previous version, if the new edited version has given you any 
+error, or the new version is not desirable.
+
+Q3)What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically 
+saved, like Google Docs does?
+ans: The advantages are that we can avoid saving different versions unnecessarily, and we can determine and confirm that we have made a logical change before 
+committing to the change. The disadvantages is that it is prone to user error, such as forgetting to commit after we have made a logical change.
+
+Q4)Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+ans: I think normally git stores some programs and codes, in which the files are inter-dependant on each other, so it is necessary for git to save multiple files 
+in one commit.whereas in google docs we normally save general files which may not be dependant on other files, so google docs does not need to save multiple files 
+in each commit.
+
+Q5)How can you use the commands git log and git diff to view the history of files?
+ans:git log will help you list different commits according to their commit ID and the time they were created.
+you can use git diff <commit ID1> <commit ID2> to find the difference between two different commits.
+
+Q6)How might using version control make you more confident to make changes that could break something?
+Using version control, it is easier to move to a version which will not include the bug which is present in the latest version. So the developer will be more 
+confident incase he commits and introduces a bug he can track down in which version did he introduce it using the version control system.
+
+Q7)Now that you have your workspace set up, what do you want to try using Git for?
+Now that I have set up git workspace, I will use it to practice git commands and push it to github, in order to learn how to use github.
